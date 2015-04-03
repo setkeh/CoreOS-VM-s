@@ -1,0 +1,27 @@
+{
+  "brand": "kvm",
+  "alias": "Puppet-Master",
+  "resolvers": [
+    "192.168.1.1",
+    "8.8.4.4"
+  ],
+  "ram": "512",
+  "vcpus": "1",
+  "nics": [
+    {
+      "nic_tag": "admin",
+      "ip": "192.168.1.11",
+      "netmask": "255.255.255.0",
+      "gateway": "192.168.1.1",
+      "model": "virtio",
+      "primary": true
+    }
+  ],
+  "disks": [
+    {
+      "image_uuid": "3269b9fa-d22e-11e4-afcc-2b4d49a11805",
+      "boot": true,
+      "model": "virtio"
+    }
+  ]
+}
