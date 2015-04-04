@@ -1,0 +1,31 @@
+{
+  "brand": "kvm",
+  "alias": "DNS-Master",
+  "hostname": "dns.setkeh.local",
+  "resolvers": [
+    "192.168.1.1",
+    "8.8.4.4"
+  ],
+  "ram": "512",
+  "vcpus": "1",
+  "nics": [
+    {
+      "nic_tag": "admin",
+      "ip": "192.168.1.254",
+      "netmask": "255.255.255.0",
+      "gateway": "192.168.1.1",
+      "model": "virtio",
+      "primary": true
+    }
+  ],
+  "disks": [
+    {
+      "image_uuid": "3269b9fa-d22e-11e4-afcc-2b4d49a11805",
+      "boot": true,
+      "model": "virtio"
+    }
+  ],
+  "customer_metadata": {
+  "root_authorized_keys": "ssh-rsa AAAAB3NzaC1yc2EAAAABIwAAAYEAxS05K7Hn8cFCyr3OlfZ7JkgO8nYOB/3i5+/nauG1U/NoLjstL2sQ/6ED6aTAKHXTrsM0RaSnReFgonbexYoZ9x4vYPBtOWc5PS1J0hQblRAMp6zJuYWRXN7ynTRAYRoLBPY2cKyAJU2HsS3y8tJaCcepe4Z+BHVjriXIVPngRlbUKtIOA+MTgHn8eYyQ72P8F9XbHgoQJEEOjNkldAuah9MuaPNHQpdqZkh5/fB1zM1V7MYacTybGDqKRTqNp+WQt9LKRevZ5tah2tv9lY6yaXgmny7Fi6qPbO5BAAaww0VgShpouJ6FgfZuA12pKoAK7rUf7AEAqcqb6T6LDT5jv+d5bCGGhPTHiEkaMPpCoXsfm9lCCatLv8OyorZq9duUVWtCukyU0VXOk/Dgf4Ns+zE4sk2am7wSlvOQVDtTlXCc4hIjiulKJjHbDynPnB7nu9wsQTGs8ts/1eNS56L0SqLvjz9q6PIipv32gftYMDgmgJpzDkaAq4ameF4S7oUt"
+}
+}
