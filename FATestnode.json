@@ -1,0 +1,27 @@
+{
+  "brand": "joyent",
+  "alias": "FATestNode",
+  "resolvers": [
+    "192.168.1.1",
+    "8.8.4.4"
+  ],
+  "ram": "2048",
+  "vcpus": "2",
+  "nics": [
+    {
+      "nic_tag": "admin",
+      "ip": "192.168.1.61",
+      "netmask": "255.255.255.0",
+      "gateway": "192.168.1.1",
+      "model": "virtio",
+      "primary": true
+    }
+  ],
+  "disks": [
+    {
+      "image_uuid": "603a190e-08ff-11e4-a54e-5b67f8ad1e60",
+      "boot": true,
+      "model": "virtio"
+    }
+  ]
+}
