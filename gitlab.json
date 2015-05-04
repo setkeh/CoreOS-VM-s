@@ -1,0 +1,33 @@
+{
+  "brand": "joyent",
+  "image_uuid": "a0e719d6-4e21-11e4-92eb-2bf6399552e7",
+  "autoboot": true,
+  "alias": "Gitlab",
+  "hostname": "gitlab",
+  "dns_domain": "setkeh.local",
+  "resolvers": [
+    "192.168.1.1",
+    "8.8.8.8"
+  ],
+  "max_physical_memory": 1024,
+  "max_swap": 256,
+  "tmpfs": 1024,
+  "quota": 64,
+  "cpu_cap": 25,
+  "cpu_shares": 100,
+  "nics": [
+    {
+      "nic_tag": "public",
+      "ip": "dhcp",
+      "netmask": "255.255.255.0",
+      "gateway": "192.168.1.1",
+      "primary": true
+    }
+  ],
+  "customer_metadata": {
+    "root_pw": "ROOTPW"
+  },
+  "internal_metadata": {
+    "root_pw": "ROOTPW"
+  }
+}
